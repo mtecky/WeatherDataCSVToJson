@@ -22,9 +22,6 @@ namespace ConvertBOMDataCsvToJson
 
                 csvToJsonManager.ConvertCsvToJson(args[0]);
 
-                //var path = @"C:\Mona\interview\ter\IDCJAC0009_066062_1800\IDCJAC0009_066062_1800_Data.csv";
-                //csvToJsonManager.ConvertCsvToJson(path);
-
                 Console.WriteLine("Conversion completed!");
                 Console.ReadLine();
 

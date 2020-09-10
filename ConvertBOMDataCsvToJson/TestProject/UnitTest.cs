@@ -38,13 +38,6 @@ namespace TestProject
             Assert.Throws<Exception>(() => cps.ReadCsvFile($"{_filePath}Invalid_Header_Error.csv"));
         }
 
-        //[Fact]
-        //public void Convert_IncorrectFormatInLastRow()
-        //{
-        //    CsvParserJsonWriterService cps = new CsvParserJsonWriterService();
-        //    List<WeatherDataModel> weatherDataModel = cps.ReadCsvFile($"{_filePath}Incorrect_Format_Data_Last_Row.csv");
-        //}
-
 
         [Theory]
         [InlineData(2015)]
@@ -322,6 +315,7 @@ namespace TestProject
         }
 
      
+        // Further Unit Tests that can be coded are as follows:
         public void FirstRecordedDate_Month_Test(string year, string month)
         {
         }
