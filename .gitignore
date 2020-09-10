@@ -1,0 +1,12 @@
+.idea/
+packages/
+node_modules/
+*.js.map
+.vs/
+bin/
+obj/
+log/
+host/web/package-lock.json
+*.TMP
+host/web/ng-test.xml
+*.user
